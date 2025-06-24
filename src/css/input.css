@@ -1,0 +1,56 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+.des{
+  @apply text-xl;
+}
+
+@theme{
+  --font-bebas : "Bebas Neue", sans-serif;
+  --font-popins : "Popins":sans-serif;
+  --color-green-dark : #0e9e49;
+  --font-fugaz: "Fugaz One", sans-serif;
+  /* Color */
+  --color-main-500 : #e6b7d3;
+}
+
+@layer base{
+  .btn{
+    @apply overflow-hidden;
+    @apply relative;
+     @apply after:bg-yellow-600;
+    @apply after:w-0;
+    @apply after:h-full;
+    @apply duration-[0.5s];
+     @apply after:content-[''] ;
+     @apply after:absolute;
+     @apply after:left-0;
+     @apply after:rounded-lg;
+     @apply after:z-[-1];
+     @apply z-[1];
+      @apply after:transition-all;
+      
+  }
+  .btn:hover{
+    @apply after:w-full;
+
+   color: #fff !important;
+  }
+}
+
+.link{
+  font-family: "Popins",sans-serif !important;
+}
+
+.all-Sposer{
+   animation: infiniScroll 10s linear infinite;
+}
+@keyframes infiniScroll {
+  0% {
+    transform: translateX(0);
+  }
+  100%{
+    transform: translateX(-100%);
+  }
+  
+}
