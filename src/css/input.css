@@ -12,6 +12,7 @@
   --font-fugaz: "Fugaz One", sans-serif;
   /* Color */
   --color-main-500 : #e6b7d3;
+  --color-greenDark-100 : #002b26;
 }
 
 @layer base{
