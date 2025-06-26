@@ -3,6 +3,10 @@
 
 .des{
   @apply text-xl;
+
+}
+*{
+  @apply select-none;
 }
 
 @theme{
@@ -55,3 +59,4 @@
   }
   
 }
+
