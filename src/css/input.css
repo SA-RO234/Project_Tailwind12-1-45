@@ -43,9 +43,7 @@
   }
 }
 
-.link{
-  font-family: "Popins",sans-serif !important;
-}
+
 
 .all-Sposer{
    animation: infiniScroll 10s linear infinite;
@@ -60,3 +58,7 @@
   
 }
 
+
+a{
+font-family: "Fugaz One", sans-serif;
+}

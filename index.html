@@ -22,6 +22,8 @@
     <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
     <!-- CSS AOS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- fontawsome ICON -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
     <div
@@ -372,13 +374,13 @@
 
     <!--  Section Find your yfood -->
     <section
-    data-aos="fade-right"
-    data-aos-offset="300"
-    data-aos-easing="ease-in-sine"
+      data-aos="fade-right"
+      data-aos-offset="300"
+      data-aos-easing="ease-in-sine"
       class="find-container text-greenDark-100 p-[100px] w-full text-center"
     >
       <h1 class="text-5xl font-fugaz pb-[70px] font-bold">Find your yFood.</h1>
-      <div class="card-container flex gap-[40px]  justify-center flex-wrap">
+      <div class="card-container flex gap-[40px] justify-center flex-wrap">
         <div
           class="card-item group p-[50px] h-[650px] cursor-pointer rounded-4xl w-[450px] bg-green-200"
         >
@@ -416,182 +418,449 @@
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi b
               recusandae?
             </p>
-            <button type="button" class=" hidden group-hover:block text-3xl font-bold bg-green-300 cursor-pointer rounded-2xl p-[30px_50px] w-full">Try Now</button>
+            <button
+              type="button"
+              class="hidden group-hover:block text-3xl font-bold bg-green-300 cursor-pointer rounded-2xl p-[30px_50px] w-full"
+            >
+              Try Now
+            </button>
           </div>
         </div>
         <div
-        class="card-item group p-[50px] h-[650px] cursor-pointer rounded-4xl w-[450px] bg-green-200"
-      >
-        <img src="/assets/card/img1.png" class="w-full" alt="" />
-        <ul class="flex gap-5 font-fugaz p-5 justify-center">
-          <li class="bg-green-100 p-[2px_10px] text-md rounded-4xl">
-            classic
-          </li>
-          <li
-            class="flex items-center bg-green-100 p-[2px_10px] text-md rounded-4xl"
-          >
-            Vegan
-            <svg
-              class="icon icon-vegan"
-              aria-hidden="true"
-              focusable="false"
-              xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
-              viewBox="0 0 16 16"
-            >
-              <path
-                d="M3.71812 7.62473C4.68732 6.65157 5.93553 6.14105 7.19842 5.83793C8.46132 5.55077 9.75358 5.45505 11.0312 5.2317C12.015 5.05621 13.043 4.76905 13.8066 4.03518C13.88 3.95541 13.9975 4.01923 13.9975 4.14686C14.0269 5.85389 13.8066 7.64069 12.9108 8.96483C12.1325 10.1294 10.899 10.8154 9.65078 11.1345C8.40258 11.4536 7.09563 11.4536 5.81805 11.4855C4.56984 11.5174 3.29226 11.5812 2.10279 11.996C2.07342 12.012 2 11.9801 2 11.9003C2.01468 11.6131 2.05874 10.9431 2.07342 10.8314C2.14685 10.4166 2.26433 10.0178 2.41117 9.63488C2.71956 8.86911 3.1601 8.16716 3.71812 7.62473Z"
-                fill="#12b749"
-              ></path>
-            </svg>
-          </li>
-          <li class="bg-green-100 p-[2px_10px] text-md rounded-4xl">
-            Fruity
-          </li>
-        </ul>
-        <h1 class="title text-4xl pb-5 font-bold font-fugaz">Drinks</h1>
-        <div class="layer">
-          <p class="des group-hover:hidden">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi b
-            recusandae?
-          </p>
-          <button type="button" class=" hidden group-hover:block text-3xl font-bold bg-green-300 cursor-pointer rounded-2xl p-[30px_50px] w-full">Try Now</button>
-        </div>
-      </div>
-      <div
-      class="card-item group p-[50px] h-[650px] cursor-pointer rounded-4xl w-[450px] bg-green-200"
-    >
-      <img src="/assets/card/img1.png" class="w-full" alt="" />
-      <ul class="flex gap-5 font-fugaz p-5 justify-center">
-        <li class="bg-green-100 p-[2px_10px] text-md rounded-4xl">
-          classic
-        </li>
-        <li
-          class="flex items-center bg-green-100 p-[2px_10px] text-md rounded-4xl"
+          class="card-item group p-[50px] h-[650px] cursor-pointer rounded-4xl w-[450px] bg-green-200"
         >
-          Vegan
-          <svg
-            class="icon icon-vegan"
-            aria-hidden="true"
-            focusable="false"
-            xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="16"
-            viewBox="0 0 16 16"
-          >
-            <path
-              d="M3.71812 7.62473C4.68732 6.65157 5.93553 6.14105 7.19842 5.83793C8.46132 5.55077 9.75358 5.45505 11.0312 5.2317C12.015 5.05621 13.043 4.76905 13.8066 4.03518C13.88 3.95541 13.9975 4.01923 13.9975 4.14686C14.0269 5.85389 13.8066 7.64069 12.9108 8.96483C12.1325 10.1294 10.899 10.8154 9.65078 11.1345C8.40258 11.4536 7.09563 11.4536 5.81805 11.4855C4.56984 11.5174 3.29226 11.5812 2.10279 11.996C2.07342 12.012 2 11.9801 2 11.9003C2.01468 11.6131 2.05874 10.9431 2.07342 10.8314C2.14685 10.4166 2.26433 10.0178 2.41117 9.63488C2.71956 8.86911 3.1601 8.16716 3.71812 7.62473Z"
-              fill="#12b749"
-            ></path>
-          </svg>
-        </li>
-        <li class="bg-green-100 p-[2px_10px] text-md rounded-4xl">
-          Fruity
-        </li>
-      </ul>
-      <h1 class="title text-4xl pb-5 font-bold font-fugaz">Drinks</h1>
-      <div class="layer">
-        <p class="des group-hover:hidden">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi b
-          recusandae?
-        </p>
-        <button type="button" class=" hidden group-hover:block text-3xl font-bold bg-green-300 cursor-pointer rounded-2xl p-[30px_50px] w-full">Try Now</button>
-      </div>
-    </div>
+          <img src="/assets/card/img1.png" class="w-full" alt="" />
+          <ul class="flex gap-5 font-fugaz p-5 justify-center">
+            <li class="bg-green-100 p-[2px_10px] text-md rounded-4xl">
+              classic
+            </li>
+            <li
+              class="flex items-center bg-green-100 p-[2px_10px] text-md rounded-4xl"
+            >
+              Vegan
+              <svg
+                class="icon icon-vegan"
+                aria-hidden="true"
+                focusable="false"
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.71812 7.62473C4.68732 6.65157 5.93553 6.14105 7.19842 5.83793C8.46132 5.55077 9.75358 5.45505 11.0312 5.2317C12.015 5.05621 13.043 4.76905 13.8066 4.03518C13.88 3.95541 13.9975 4.01923 13.9975 4.14686C14.0269 5.85389 13.8066 7.64069 12.9108 8.96483C12.1325 10.1294 10.899 10.8154 9.65078 11.1345C8.40258 11.4536 7.09563 11.4536 5.81805 11.4855C4.56984 11.5174 3.29226 11.5812 2.10279 11.996C2.07342 12.012 2 11.9801 2 11.9003C2.01468 11.6131 2.05874 10.9431 2.07342 10.8314C2.14685 10.4166 2.26433 10.0178 2.41117 9.63488C2.71956 8.86911 3.1601 8.16716 3.71812 7.62473Z"
+                  fill="#12b749"
+                ></path>
+              </svg>
+            </li>
+            <li class="bg-green-100 p-[2px_10px] text-md rounded-4xl">
+              Fruity
+            </li>
+          </ul>
+          <h1 class="title text-4xl pb-5 font-bold font-fugaz">Drinks</h1>
+          <div class="layer">
+            <p class="des group-hover:hidden">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi b
+              recusandae?
+            </p>
+            <button
+              type="button"
+              class="hidden group-hover:block text-3xl font-bold bg-green-300 cursor-pointer rounded-2xl p-[30px_50px] w-full"
+            >
+              Try Now
+            </button>
+          </div>
+        </div>
+        <div
+          class="card-item group p-[50px] h-[650px] cursor-pointer rounded-4xl w-[450px] bg-green-200"
+        >
+          <img src="/assets/card/img1.png" class="w-full" alt="" />
+          <ul class="flex gap-5 font-fugaz p-5 justify-center">
+            <li class="bg-green-100 p-[2px_10px] text-md rounded-4xl">
+              classic
+            </li>
+            <li
+              class="flex items-center bg-green-100 p-[2px_10px] text-md rounded-4xl"
+            >
+              Vegan
+              <svg
+                class="icon icon-vegan"
+                aria-hidden="true"
+                focusable="false"
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.71812 7.62473C4.68732 6.65157 5.93553 6.14105 7.19842 5.83793C8.46132 5.55077 9.75358 5.45505 11.0312 5.2317C12.015 5.05621 13.043 4.76905 13.8066 4.03518C13.88 3.95541 13.9975 4.01923 13.9975 4.14686C14.0269 5.85389 13.8066 7.64069 12.9108 8.96483C12.1325 10.1294 10.899 10.8154 9.65078 11.1345C8.40258 11.4536 7.09563 11.4536 5.81805 11.4855C4.56984 11.5174 3.29226 11.5812 2.10279 11.996C2.07342 12.012 2 11.9801 2 11.9003C2.01468 11.6131 2.05874 10.9431 2.07342 10.8314C2.14685 10.4166 2.26433 10.0178 2.41117 9.63488C2.71956 8.86911 3.1601 8.16716 3.71812 7.62473Z"
+                  fill="#12b749"
+                ></path>
+              </svg>
+            </li>
+            <li class="bg-green-100 p-[2px_10px] text-md rounded-4xl">
+              Fruity
+            </li>
+          </ul>
+          <h1 class="title text-4xl pb-5 font-bold font-fugaz">Drinks</h1>
+          <div class="layer">
+            <p class="des group-hover:hidden">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi b
+              recusandae?
+            </p>
+            <button
+              type="button"
+              class="hidden group-hover:block text-3xl font-bold bg-green-300 cursor-pointer rounded-2xl p-[30px_50px] w-full"
+            >
+              Try Now
+            </button>
+          </div>
+        </div>
       </div>
     </section>
 
     <!-- Customer  -->
-     <section class="customer-container  text-greenDark-100 p-[100px] w-full">
-      <h1 class="text-5xl font-fugaz pb-[70px] font-bold">It simply tastes good.Don't you agree?</h1>
-      <div class="AllCustomer-container carousel gap-[30px] carousel-end w-full rounded-box">
-          <div class="cutomer-item group cursor-pointer w-[450px] carousel-item  flex-col">
-              <h1 class="name font-fugaz text-2xl font-bold mb-3">Vicky</h1>
-                <p class="username bg-green-200 w-[140px] text-md font-bold font-fugaz p-[5px_30px] rounded-3xl mb-5">@vicky.mw</p>
-              <div class="w-full h-full relative rounded-4xl overflow-hidden ">
-                <div class="overlay w-full h-full absolute opacity-0 duration-300 group-hover:opacity-100 inset-0 bg-[rgba(0,0,0,0.69)]"></div>
-                <img src="/assets/customer/img1.png" class="w-full profile " alt="">
-              </div>
-              </div>
-              <div class="cutomer-item group cursor-pointer w-[450px] carousel-item  flex-col">
-                <h1 class="name font-fugaz text-2xl font-bold mb-3">Vicky</h1>
-                  <p class="username bg-green-200 w-[140px] text-md font-bold font-fugaz p-[5px_30px] rounded-3xl mb-5">@vicky.mw</p>
-                <div class="w-full h-full relative rounded-4xl overflow-hidden ">
-                  <div class="overlay w-full h-full absolute opacity-0 duration-300 group-hover:opacity-100 inset-0 bg-[rgba(0,0,0,0.69)]"></div>
-                  <img src="/assets/customer/img1.png" class="w-full profile " alt="">
-                </div>
-                </div>
-                <div class="cutomer-item group cursor-pointer w-[450px] carousel-item  flex-col">
-                  <h1 class="name font-fugaz text-2xl font-bold mb-3">Vicky</h1>
-                    <p class="username bg-green-200 w-[140px] text-md font-bold font-fugaz p-[5px_30px] rounded-3xl mb-5">@vicky.mw</p>
-                  <div class="w-full h-full relative rounded-4xl overflow-hidden ">
-                    <div class="overlay w-full h-full absolute opacity-0 duration-300 group-hover:opacity-100 inset-0 bg-[rgba(0,0,0,0.69)]"></div>
-                    <img src="/assets/customer/img1.png" class="w-full profile " alt="">
-                  </div>
-                  </div>
-                  <div class="cutomer-item group cursor-pointer w-[450px] carousel-item  flex-col">
-                    <h1 class="name font-fugaz text-2xl font-bold mb-3">Vicky</h1>
-                      <p class="username bg-green-200 w-[140px] text-md font-bold font-fugaz p-[5px_30px] rounded-3xl mb-5">@vicky.mw</p>
-                    <div class="w-full h-full relative rounded-4xl overflow-hidden ">
-                      <div class="overlay w-full h-full absolute opacity-0 duration-300 group-hover:opacity-100 inset-0 bg-[rgba(0,0,0,0.69)]"></div>
-                      <img src="/assets/customer/img1.png" class="w-full profile " alt="">
-                    </div>
-                    </div>
-                    <div class="cutomer-item group cursor-pointer w-[450px] carousel-item  flex-col">
-                      <h1 class="name font-fugaz text-2xl font-bold mb-3">Vicky</h1>
-                        <p class="username bg-green-200 w-[140px] text-md font-bold font-fugaz p-[5px_30px] rounded-3xl mb-5">@vicky.mw</p>
-                      <div class="w-full h-full relative rounded-4xl overflow-hidden ">
-                        <div class="overlay w-full h-full absolute opacity-0 duration-300 group-hover:opacity-100 inset-0 bg-[rgba(0,0,0,0.69)]"></div>
-                        <img src="/assets/customer/img1.png" class="w-full profile " alt="">
-                      </div>
-                      </div>
-                      <div class="cutomer-item group cursor-pointer w-[450px] carousel-item  flex-col">
-                        <h1 class="name font-fugaz text-2xl font-bold mb-3">Vicky</h1>
-                          <p class="username bg-green-200 w-[140px] text-md font-bold font-fugaz p-[5px_30px] rounded-3xl mb-5">@vicky.mw</p>
-                        <div class="w-full h-full relative rounded-4xl overflow-hidden ">
-                          <div class="overlay w-full h-full absolute opacity-0 duration-300 group-hover:opacity-100 inset-0 bg-[rgba(0,0,0,0.69)]"></div>
-                          <img src="/assets/customer/img1.png" class="w-full profile " alt="">
-                        </div>
-                        </div>
-                        <div class="cutomer-item group cursor-pointer w-[450px] carousel-item  flex-col">
-                          <h1 class="name font-fugaz text-2xl font-bold mb-3">Vicky</h1>
-                            <p class="username bg-green-200 w-[140px] text-md font-bold font-fugaz p-[5px_30px] rounded-3xl mb-5">@vicky.mw</p>
-                          <div class="w-full h-full relative rounded-4xl overflow-hidden ">
-                            <div class="overlay w-full h-full absolute opacity-0 duration-300 group-hover:opacity-100 inset-0 bg-[rgba(0,0,0,0.69)]"></div>
-                            <img src="/assets/customer/img1.png" class="w-full profile " alt="">
-                          </div>
-                          </div>
+    <section class="customer-container text-greenDark-100 p-[100px] w-full">
+      <h1 class="text-5xl font-fugaz pb-[70px] font-bold">
+        It simply tastes good.Don't you agree?
+      </h1>
+      <div
+        class="AllCustomer-container carousel gap-[30px] carousel-end w-full rounded-box"
+      >
+        <div
+          class="cutomer-item group cursor-pointer w-[450px] carousel-item flex-col"
+        >
+          <h1 class="name font-fugaz text-2xl font-bold mb-3">Vicky</h1>
+          <p
+            class="username bg-green-200 w-[140px] text-md font-bold font-fugaz p-[5px_30px] rounded-3xl mb-5"
+          >
+            @vicky.mw
+          </p>
+          <div class="w-full h-full relative rounded-4xl overflow-hidden">
+            <div
+              class="overlay w-full h-full absolute opacity-0 duration-300 group-hover:opacity-100 inset-0 bg-[rgba(0,0,0,0.69)]"
+            ></div>
+            <img
+              src="/assets/customer/img1.png"
+              class="w-full profile"
+              alt=""
+            />
+          </div>
+        </div>
+        <div
+          class="cutomer-item group cursor-pointer w-[450px] carousel-item flex-col"
+        >
+          <h1 class="name font-fugaz text-2xl font-bold mb-3">Vicky</h1>
+          <p
+            class="username bg-green-200 w-[140px] text-md font-bold font-fugaz p-[5px_30px] rounded-3xl mb-5"
+          >
+            @vicky.mw
+          </p>
+          <div class="w-full h-full relative rounded-4xl overflow-hidden">
+            <div
+              class="overlay w-full h-full absolute opacity-0 duration-300 group-hover:opacity-100 inset-0 bg-[rgba(0,0,0,0.69)]"
+            ></div>
+            <img
+              src="/assets/customer/img1.png"
+              class="w-full profile"
+              alt=""
+            />
+          </div>
+        </div>
+        <div
+          class="cutomer-item group cursor-pointer w-[450px] carousel-item flex-col"
+        >
+          <h1 class="name font-fugaz text-2xl font-bold mb-3">Vicky</h1>
+          <p
+            class="username bg-green-200 w-[140px] text-md font-bold font-fugaz p-[5px_30px] rounded-3xl mb-5"
+          >
+            @vicky.mw
+          </p>
+          <div class="w-full h-full relative rounded-4xl overflow-hidden">
+            <div
+              class="overlay w-full h-full absolute opacity-0 duration-300 group-hover:opacity-100 inset-0 bg-[rgba(0,0,0,0.69)]"
+            ></div>
+            <img
+              src="/assets/customer/img1.png"
+              class="w-full profile"
+              alt=""
+            />
+          </div>
+        </div>
+        <div
+          class="cutomer-item group cursor-pointer w-[450px] carousel-item flex-col"
+        >
+          <h1 class="name font-fugaz text-2xl font-bold mb-3">Vicky</h1>
+          <p
+            class="username bg-green-200 w-[140px] text-md font-bold font-fugaz p-[5px_30px] rounded-3xl mb-5"
+          >
+            @vicky.mw
+          </p>
+          <div class="w-full h-full relative rounded-4xl overflow-hidden">
+            <div
+              class="overlay w-full h-full absolute opacity-0 duration-300 group-hover:opacity-100 inset-0 bg-[rgba(0,0,0,0.69)]"
+            ></div>
+            <img
+              src="/assets/customer/img1.png"
+              class="w-full profile"
+              alt=""
+            />
+          </div>
+        </div>
+        <div
+          class="cutomer-item group cursor-pointer w-[450px] carousel-item flex-col"
+        >
+          <h1 class="name font-fugaz text-2xl font-bold mb-3">Vicky</h1>
+          <p
+            class="username bg-green-200 w-[140px] text-md font-bold font-fugaz p-[5px_30px] rounded-3xl mb-5"
+          >
+            @vicky.mw
+          </p>
+          <div class="w-full h-full relative rounded-4xl overflow-hidden">
+            <div
+              class="overlay w-full h-full absolute opacity-0 duration-300 group-hover:opacity-100 inset-0 bg-[rgba(0,0,0,0.69)]"
+            ></div>
+            <img
+              src="/assets/customer/img1.png"
+              class="w-full profile"
+              alt=""
+            />
+          </div>
+        </div>
+        <div
+          class="cutomer-item group cursor-pointer w-[450px] carousel-item flex-col"
+        >
+          <h1 class="name font-fugaz text-2xl font-bold mb-3">Vicky</h1>
+          <p
+            class="username bg-green-200 w-[140px] text-md font-bold font-fugaz p-[5px_30px] rounded-3xl mb-5"
+          >
+            @vicky.mw
+          </p>
+          <div class="w-full h-full relative rounded-4xl overflow-hidden">
+            <div
+              class="overlay w-full h-full absolute opacity-0 duration-300 group-hover:opacity-100 inset-0 bg-[rgba(0,0,0,0.69)]"
+            ></div>
+            <img
+              src="/assets/customer/img1.png"
+              class="w-full profile"
+              alt=""
+            />
+          </div>
+        </div>
+        <div
+          class="cutomer-item group cursor-pointer w-[450px] carousel-item flex-col"
+        >
+          <h1 class="name font-fugaz text-2xl font-bold mb-3">Vicky</h1>
+          <p
+            class="username bg-green-200 w-[140px] text-md font-bold font-fugaz p-[5px_30px] rounded-3xl mb-5"
+          >
+            @vicky.mw
+          </p>
+          <div class="w-full h-full relative rounded-4xl overflow-hidden">
+            <div
+              class="overlay w-full h-full absolute opacity-0 duration-300 group-hover:opacity-100 inset-0 bg-[rgba(0,0,0,0.69)]"
+            ></div>
+            <img
+              src="/assets/customer/img1.png"
+              class="w-full profile"
+              alt=""
+            />
+          </div>
+        </div>
       </div>
-     </section>
+    </section>
+    <!--   section FAQ -->
+    <section class="faq-container p-[100px] w-full">
+      <div
+        class="collapse border-b-2 border-black rounded-none collapse-plus w-[50%] m-auto text-black"
+      >
+        <input type="radio" name="my-accordion-3" checked="checked" />
+        <div class="collapse-title text-3xl font-bold font-fugaz">
+          How do I create an account?
+        </div>
+        <div class="collapse-content text-xl">
+          Click the "Sign Up" button in the top right corner and follow the
+          registration process.
+        </div>
+      </div>
+      <div
+        class="collapse border-b-2 border-black rounded-none collapse-plus w-[50%] m-auto text-black"
+      >
+        <input type="radio" name="my-accordion-3" checked="checked" />
+        <div class="collapse-title text-3xl font-bold font-fugaz">
+          How do I create an account?
+        </div>
+        <div class="collapse-content text-xl">
+          Click the "Sign Up" button in the top right corner and follow the
+          registration process.
+        </div>
+      </div>
+      <div
+        class="collapse border-b-2 border-black rounded-none collapse-plus w-[50%] m-auto text-black"
+      >
+        <input type="radio" name="my-accordion-3" checked="checked" />
+        <div class="collapse-title text-3xl font-bold font-fugaz">
+          How do I create an account?
+        </div>
+        <div class="collapse-content text-xl">
+          Click the "Sign Up" button in the top right corner and follow the
+          registration process.
+        </div>
+      </div>
+      <div
+        class="collapse border-b-2 border-black rounded-none collapse-plus w-[50%] m-auto text-black"
+      >
+        <input type="radio" name="my-accordion-3" checked="checked" />
+        <div class="collapse-title text-3xl font-bold font-fugaz">
+          How do I create an account?
+        </div>
+        <div class="collapse-content text-xl">
+          Click the "Sign Up" button in the top right corner and follow the
+          registration process.
+        </div>
+      </div>
+      <div
+        class="collapse border-b-2 border-black rounded-none collapse-plus w-[50%] m-auto text-black"
+      >
+        <input type="radio" name="my-accordion-3" checked="checked" />
+        <div class="collapse-title text-3xl font-bold font-fugaz">
+          How do I create an account?
+        </div>
+        <div class="collapse-content text-xl">
+          Click the "Sign Up" button in the top right corner and follow the
+          registration process.
+        </div>
+      </div>
+    </section>
 
-     <section class="faq-container p-[100px] w-full">
-      <div class="collapse border-b-2 border-black rounded-none collapse-plus w-[50%] m-auto  text-black ">
-        <input type="radio" name="my-accordion-3" checked="checked" />
-        <div class="collapse-title text-3xl font-bold font-fugaz">How do I create an account?</div>
-        <div class="collapse-content text-xl ">Click the "Sign Up" button in the top right corner and follow the registration process.</div>
+    <!-- Section footer -->
+    <section class="footer-container bg-greenDark-100 p-[50px_100px] w-full">
+      <h1 class="font-fugaz text-[50px] font-bold">Getyour10% voucher.</h1>
+      <div class="flex justify-start pb-5 items-center gap-2">
+        <div
+          class="border border-white relative group rounded-xl hover:border-0 w-[30%]"
+        >
+          <input
+            type="email"
+            name=""
+            class="peer border-none pt-5 w-[100%] bg-black outline-none font-fugaz text-xl font-bold p-[10px_30px] border border-white rounded-xl"
+            id=""
+          />
+          <label
+            for="email"
+            class="absolute left-[20px] top-[10px] peer-focus:top-[0px] peer-focus:text-sm text-2xl"
+            >Email</label
+          >
+        </div>
+        <button
+          type="button"
+          class="flex justify-center items-center h-[60px] w-[60px] cursor-pointer rounded-xl hover:border hover:border-black bg-white text-black"
+        >
+          <i data-lucide="arrow-right"></i>
+        </button>
       </div>
-      <div class="collapse border-b-2 border-black rounded-none collapse-plus w-[50%] m-auto  text-black ">
-        <input type="radio" name="my-accordion-3" checked="checked" />
-        <div class="collapse-title text-3xl font-bold font-fugaz">How do I create an account?</div>
-        <div class="collapse-content text-xl ">Click the "Sign Up" button in the top right corner and follow the registration process.</div>
+     
+      <div class="flex justify-start items-center">
+        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="147" height="47" viewBox="0 0 147 47" fill="none">
+          <path d="M142.226 8.66667C139.815 8.66667 138.35 7.04762 138.35 4.71429C138.35 2.42857 139.815 0.761904 142.226 0.761904C144.637 0.761904 146.102 2.38095 146.102 4.71429C146.102 7 144.637 8.66667 142.226 8.66667ZM142.226 0C139.532 0 137.452 2.04762 137.452 4.71429C137.452 7.38095 139.485 9.42857 142.226 9.42857C144.92 9.42857 147 7.38095 147 4.71429C147 2.04762 144.92 0 142.226 0Z" fill="white"/>
+          <path d="M142.51 4.42842H141.801V3.47604H142.51C142.982 3.47604 143.171 3.6189 143.171 3.95223C143.171 4.23795 142.935 4.42842 142.51 4.42842ZM144.353 3.95223C144.353 2.90461 143.644 2.42842 142.557 2.42842H140.288V6.71414H141.753V5.42842H142.226L142.84 6.71414H144.4L143.644 5.19033C144.117 4.95223 144.353 4.6189 144.353 3.95223Z" fill="white"/>
+          <path d="M118.404 32.8572C115 32.8572 112.779 30.2858 112.779 26.6667C112.779 23.1429 115 20.5715 118.404 20.5715C121.759 20.5715 123.934 23.1429 123.934 26.6667C123.934 30.2382 121.759 32.8572 118.404 32.8572ZM91.0833 32.8572C87.6801 32.8572 85.4585 30.2858 85.4585 26.6667C85.4585 23.1429 87.6801 20.5715 91.0833 20.5715C94.4392 20.5715 96.6135 23.1429 96.6135 26.6667C96.5663 30.2382 94.392 32.8572 91.0833 32.8572ZM62.9595 32.8572C59.5563 32.8572 57.3347 30.2858 57.3347 26.6667C57.3347 23.1429 59.5563 20.5715 62.9595 20.5715C66.3154 20.5715 68.4897 23.1429 68.4897 26.6667C68.4897 30.2382 66.3154 32.8572 62.9595 32.8572ZM14.9836 36.9048L14.9363 37.0001C14.3219 38.381 13.0929 39.2382 11.5331 39.2382C9.68971 39.2382 8.31897 38.0477 7.79904 36.2858H0C0.850804 42.6191 5.24662 47.0001 11.6749 47.0001C14.6527 47.0001 17.2524 46.0477 19.1431 44.2858C20.6084 42.9048 21.6482 41.0953 21.79 40.8572L32.5196 21.0953H32.5669V40.5715H42.3039V22.2858H48.1177C47.6923 23.6667 47.5032 25.1429 47.5032 26.7144C47.5032 35.4286 54.026 41.2858 62.9122 41.2858C69.3878 41.2858 74.6817 38.0477 76.9978 32.8572C79.3138 38.0953 84.6077 41.2858 91.1778 41.2858C97.6061 41.2858 102.853 38.0953 105.216 32.9048C107.059 38.0953 111.266 41.0477 116.371 41.0477C122.043 41.0477 124.69 37.4286 125.021 36.8096V40.5239H134.805V2.04768H129.559C126.959 2.04768 124.879 4.14292 124.879 6.76197V16.3334C124.501 15.8096 122.043 12.381 116.418 12.381C111.408 12.381 107.154 15.381 105.263 20.5239C102.947 15.3334 97.6534 12.1905 91.2251 12.1905C84.655 12.1905 79.3611 15.381 77.045 20.5715C74.7289 15.3334 69.4351 12.1905 62.9595 12.1905C57.8547 12.1905 53.5061 14.0953 50.7174 17.4286V13.8572H42.3511V10.762C42.3511 9.71436 43.2019 8.85721 44.2418 8.85721H53.3643V0.0476837H40.1296C36.0174 0.0476837 32.6614 3.42864 32.6614 7.5715V13.762H28.0765C26.4695 13.762 25.0987 14.762 24.2952 16.1429L19.2376 26.381L12.1003 15.762C11.2023 14.5239 9.78425 13.8096 8.31897 13.8096H2.83601C1.27621 13.8096 0.330869 15.5715 1.22894 16.9048L14.8891 36.8096L14.9836 36.9048Z" fill="white"/>
+          </svg></a>
+        <ul class="flex gap-5 items-center">
+          <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-tiktok"></i></a></li>
+        </ul>
       </div>
-      <div class="collapse border-b-2 border-black rounded-none collapse-plus w-[50%] m-auto  text-black ">
-        <input type="radio" name="my-accordion-3" checked="checked" />
-        <div class="collapse-title text-3xl font-bold font-fugaz">How do I create an account?</div>
-        <div class="collapse-content text-xl ">Click the "Sign Up" button in the top right corner and follow the registration process.</div>
-      </div>
-      <div class="collapse border-b-2 border-black rounded-none collapse-plus w-[50%] m-auto  text-black ">
-        <input type="radio" name="my-accordion-3" checked="checked" />
-        <div class="collapse-title text-3xl font-bold font-fugaz">How do I create an account?</div>
-        <div class="collapse-content text-xl ">Click the "Sign Up" button in the top right corner and follow the registration process.</div>
-      </div>
-      <div class="collapse border-b-2 border-black rounded-none collapse-plus w-[50%] m-auto  text-black ">
-        <input type="radio" name="my-accordion-3" checked="checked" />
-        <div class="collapse-title text-3xl font-bold font-fugaz">How do I create an account?</div>
-        <div class="collapse-content text-xl ">Click the "Sign Up" button in the top right corner and follow the registration process.</div>
-      </div>
-     </section>
+      <footer class="footer sm:footer-horizontal flex-col border-t pt-5 border-white font-fugaz text-base-content">
+      
+        <nav>
+          <h6 class="footer-title">Services</h6>
+          <a class="link link-hover">Branding</a>
+          <a class="link link-hover">Design</a>
+          <a class="link link-hover">Marketing</a>
+          <a class="link link-hover">Advertisement</a>
+        </nav>
+        <nav>
+          <h6 class="footer-title">Company</h6>
+          <a class="link link-hover">About us</a>
+          <a class="link link-hover">Contact</a>
+          <a class="link link-hover">Jobs</a>
+          <a class="link link-hover">Press kit</a>
+        </nav>
+        <nav>
+          <h6 class="footer-title">Legal</h6>
+          <a class="link link-hover">Terms of use</a>
+          <a class="link link-hover">Privacy policy</a>
+          <a class="link link-hover">Cookie policy</a>
+        </nav>
+      </footer>
+      <footer class="footer bg-red-700">
+        <aside class="grid-flow-col items-center">
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            class="fill-current"
+          >
+            <path
+              d="M22.672 15.226l-2.432.811.841 2.515c.33 1.019-.209 2.127-1.23 2.456-1.15.325-2.148-.321-2.463-1.226l-.84-2.518-5.013 1.677.84 2.517c.391 1.203-.434 2.542-1.831 2.542-.88 0-1.601-.564-1.86-1.314l-.842-2.516-2.431.809c-1.135.328-2.145-.317-2.463-1.229-.329-1.018.211-2.127 1.231-2.456l2.432-.809-1.621-4.823-2.432.808c-1.355.384-2.558-.59-2.558-1.839 0-.817.509-1.582 1.327-1.846l2.433-.809-.842-2.515c-.33-1.02.211-2.129 1.232-2.458 1.02-.329 2.13.209 2.461 1.229l.842 2.515 5.011-1.677-.839-2.517c-.403-1.238.484-2.553 1.843-2.553.819 0 1.585.509 1.85 1.326l.841 2.517 2.431-.81c1.02-.33 2.131.211 2.461 1.229.332 1.018-.21 2.126-1.23 2.456l-2.433.809 1.622 4.823 2.433-.809c1.242-.401 2.557.484 2.557 1.838 0 .819-.51 1.583-1.328 1.847m-8.992-6.428l-5.01 1.675 1.619 4.828 5.011-1.674-1.62-4.829z"
+            ></path>
+          </svg>
+          <p>
+            ACME Industries Ltd.
+            <br />
+            Providing reliable tech since 1992
+          </p>
+        </aside>
+        <nav class="md:place-self-center md:justify-self-end">
+          <div class="grid grid-flow-col gap-4">
+            <a>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                class="fill-current"
+              >
+                <path
+                  d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"
+                ></path>
+              </svg>
+            </a>
+            <a>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                class="fill-current"
+              >
+                <path
+                  d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"
+                ></path>
+              </svg>
+            </a>
+            <a>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                class="fill-current"
+              >
+                <path
+                  d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"
+                ></path>
+              </svg>
+            </a>
+          </div>
+        </nav>
+      </footer>
+    </section>
   </body>
   <!-- AOS animation -->
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
